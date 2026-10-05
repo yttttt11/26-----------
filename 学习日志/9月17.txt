@@ -1,0 +1,6 @@
+在python里用函数的时候记得看好适用条件，比如int不能用for a in
+b遍历，会报错
+range(x,y,z)z是步幅
+reverse sort是行为，改变的是未知数本身，print（a.reverse())啥也没有，print(a)就行
+else后不加条件
+input= ‘’时，input就成未知数了，语法错了。eg: num = int(input("please tap your number:"))

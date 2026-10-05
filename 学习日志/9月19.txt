@@ -1,0 +1,26 @@
+1：tuple:t = ('a','b',['c','d'])
+	      	t[2][0]='X'     
+		t[2][1]='Y'
+这种情况下该tuple可改变
+tuple用（）list用【】
+tuple不可变list可变
+
+2：学了字典的key，value，items
+
+3：def power(x,n):
+    s = 1
+    while n > 0:
+        s = x**n			n一直都大于零，循环出不去，而且这玩意也不是累乘
+    return s			return用于将s呈递回来继续用，若def是print一个东西就不用return
+print(power(3,4))
+
+改：def power(x,n):
+    s = 1
+    while n > 0:
+        s = s * x
+        n = n - 1
+    return s
+
+print(power(2,3))
+def时，必选参数在前，默认参数在后
+

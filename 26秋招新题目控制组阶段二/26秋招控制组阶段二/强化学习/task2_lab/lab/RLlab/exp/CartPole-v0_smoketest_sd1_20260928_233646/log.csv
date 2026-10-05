@@ -1,0 +1,3 @@
+Eval_AverageReturn,Eval_StdReturn,Eval_MaxReturn,Eval_MinReturn,Eval_AverageEpLen,Train_AverageReturn,Train_StdReturn,Train_MaxReturn,Train_MinReturn,Train_AverageEpLen,Actor Loss,Train_EnvstepsSoFar,TimeSinceStart,Initial_DataCollection_AverageReturn,step
+27.6,10.575443,49.0,12.0,27.6,21.041666,11.368741,56.0,9.0,21.041666666666668,18.724502563476562,1010,0.33913373947143555,21.041666,0
+40.727272,22.136318,82.0,14.0,40.72727272727273,25.175,13.164132,67.0,10.0,25.175,21.76123809814453,2017,4.006162643432617,,1
